@@ -33,7 +33,7 @@ hl.window_rule({
 hl.window_rule({ match = { title = "^(.*is sharing (your screen|a window).)$" }, workspace = "special silent" })
 
 hl.window_rule({ match = { title = "^(.*(Disc|WebC)ord.*)$" }, workspace = 6 })
-hl.window_rule({ match = { class = "com.mitchellh.ghostty" }, workspace = 1 })
+hl.window_rule({ match = { class = "foot" }, workspace = 1 })
 hl.window_rule({ match = { class = "neovide" }, workspace = 1 })
 hl.window_rule({ match = { class = "^(obsidian)$" }, workspace = 2 })
 hl.window_rule({ match = { class = "^(firefox.*)$" }, opacity = "1.0 override" })

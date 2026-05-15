@@ -67,7 +67,7 @@ hl.bind(mod .. " + A", hl.dsp.exec_cmd("pypr toggle claude"))
 hl.bind(mod .. " + SHIFT + A", hl.dsp.exec_cmd("pypr toggle chatgpt"))
 
 hl.bind(mod .. " + Return", function()
-	focus_or_exec("com.mitchellh.ghostty", "app2unit-term")
+	focus_or_exec("foot", "app2unit-term")
 end)
 
 hl.bind(mod .. " + SHIFT + Return", function()
